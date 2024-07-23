@@ -81,3 +81,4 @@ print('the accuracy score is : ',accuracy_score(ypred,y_test)*100,'%')
 import pickle 
 with open('titanic.pkl','wb') as file:
     pickle.dump(pipe,file)
+
